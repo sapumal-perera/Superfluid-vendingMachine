@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context="com.emperia.isurup.vendingmachine.MainActivity">
+
+    <!--HCI Issue: Internationalization-->
+    <!-- Issue: This system is difficult to translate to another language because string is hardcoded in ui elements.-->
+    <!--Solution : UI strings were move to resources/ string xml to alove easy translation by accessing all strings through a single file.-->
+    <!---->
+    <!--HCI Issue: Design Implecation-->
+    <!--Issue: This system should be easy handle by children and elder people. buttons, text and some other UI components are hard to recognize and handle.-->
+    <!--Solution: Provide relatively large buttons and place text on solid background.-->
+    <!--provide image to understand the system outputs-->
+    <!---->
+    <!--HCI Issue: Ease of user interaction-->
+    <!--A large user base which includes elderly and computer irretorate inexperienced users. we should provide a UI that they can use-->
+
+    <ImageView
+        android:id ="@+id/imageView"
+        android:layout_weight="9"
+        android:layout_width="350dp"
+        android:gravity="center"
+        android:layout_height="260dp"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        android:src="@drawable/tasty"
+        />
+<!--HCI- better UI and UX add a text view to guild user through app by giving simple instructions-->
+    <TextView
+        android:id="@+id/text_view_id"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:textColor="#540137"
+        android:text="" />
+
+    <Button
+        android:id ="@+id/btnCamera"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:text="@string/openCamera"
+        android:textColor="#90ea60"
+        />
+
+    <Button
+        android:id ="@+id/tryAgain"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:background="#f77327"
+        android:textColor="#beef0e"
+        android:gravity="center"
+        android:text="@string/tryAgain"
+        />
+<!--when buttons are changing user will see dynamic UI -->
+    <Button
+        android:id ="@+id/btnSend"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:background="#1495e5"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:text="Send"
+        />
+
+
+    </android.support.v7.widget.LinearLayoutCompat>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SuperFluid</string>
+    <string name="openCameraMsg">Open Camera and Send a Image!</string>
+    <string name="waitRecipeMsg">Wait For Your Recipe!</string>
+    <string name="prepareDrinkQuestion">Do You Want Prepare Drink for Followings?</string>
+    <string name="pepareDrink">Prepare Drink</string>
+    <string name="cancel">Cancel</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="textview">TextView</string>
+    <string name="PairedDevices">Paired Devices</string>
+    <string name="pickYourMachineMsg">Pick Your Machine From Paired Devices!</string>
+    <string name="openCamera">Open Camera</string>
+    <string name="tryAgain">Try Again</string>
+    <string name="errorResponseMsg">Error in Your Image Response.</string>
+    <string name="connectionFailed">Connection Failed With</string>
+</resources>
